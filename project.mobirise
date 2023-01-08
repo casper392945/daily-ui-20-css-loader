@@ -1,0 +1,143 @@
+{
+  "settings": {
+    "name": "Daily UI 20 CSS Loader",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": 4.6,
+        "display2Font": "Jost",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2,
+        "display7Font": "Jost",
+        "display7Size": 1.2,
+        "display4Font": "Jost",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.3.10",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "publishChangesOnly": true,
+    "uniqCompNum": 1,
+    "versionPublish": "5.7.7",
+    "dppsSwitcher": true,
+    "spellingSwitch": true,
+    "site_lang": "en"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Daily UI 20 CSS Loader",
+        "meta_descr": "Daily UI 20 CSS Loader",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding": "50vh",
+            "*, *:before, *:after": {
+              "box-sizing": "border-box"
+            },
+            "*": {
+              "font-size": "1em",
+              "font-family": "\"Roboto\", sans-serif",
+              "line-height": "1.6",
+              "background": "#F2F1EF"
+            },
+            ".loader": {
+              "position": "absolute",
+              "top": "50%",
+              "left": "50%",
+              "transform": "translate(-50%, -50%)",
+              "width": "50px",
+              "height": "10px",
+              "background": "#3498DB",
+              "border-radius": "5px",
+              "-webkit-animation": "load 1.8s ease-in-out infinite",
+              "animation": "load 1.8s ease-in-out infinite"
+            },
+            ".loader:before, .loader:after": {
+              "position": "absolute",
+              "display": "block",
+              "content": "\"\"",
+              "-webkit-animation": "load 1.8s ease-in-out infinite",
+              "animation": "load 1.8s ease-in-out infinite",
+              "height": "10px",
+              "border-radius": "5px"
+            },
+            ".loader:before": {
+              "top": "-20px",
+              "left": "10px",
+              "width": "40px",
+              "background": "#EF4836"
+            },
+            ".loader:after": {
+              "bottom": "-20px",
+              "width": "35px",
+              "background": "#F5AB35"
+            },
+            "@-webkit-keyframes load": {
+              "0%": {
+                "transform": "translateX(40px)"
+              },
+              "50%": {
+                "transform": "translateX(-30px)"
+              },
+              "100%": {
+                "transform": "translateX(40px)"
+              }
+            },
+            "@keyframes load": {
+              "0%": {
+                "transform": "translateX(40px)"
+              },
+              "50%": {
+                "transform": "translateX(-30px)"
+              },
+              "100%": {
+                "transform": "translateX(40px)"
+              }
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\">\n    <div class='loader'></div>\n</section>",
+          "_cid": "sAj3foGuod",
+          "_anchor": "content4-0",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
